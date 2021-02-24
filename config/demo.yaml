@@ -34,6 +34,7 @@ spec:
       labels:
         app: demo   
     spec:
+      serviceAccountName: demo
       containers:
       - name: demo
         image: registry.cn-hangzhou.aliyuncs.com/poisonsky/demo
