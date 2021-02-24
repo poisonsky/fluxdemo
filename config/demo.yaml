@@ -15,7 +15,7 @@ spec:
   ports:
   - port: 9080
     name: http
-    nodePort: 9080
+    nodePort: 30001
   selector:
     app: demo
   type: NodePort
